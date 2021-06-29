@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { blockUser, adminSignin, fetchAllUsers, addUser, updateUserDetails, deleteUsersByEmail } = require('../controllers/users');
 const { protect, authorize } = require('../../middleware/auth');
-var advancedFind = require('../../middleware/Advancedfind');
+var advancedFind = require('../middleware/Advancedfind');
 const Users = require('../../models/users');
 
 router.route('/login')

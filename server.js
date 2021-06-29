@@ -2,7 +2,7 @@ const express=require('express');
 const app= express();
 const cors=require('cors');
 require('colors');
-const errorHandler=require('./middleware/errorhandler');
+const errorHandler=require('./Admin-part1/middleware/errorhandler');
 const databaseConnection=require('./db');
 const userRoute = require('./Admin-part1/routes/users');
 const orderRoute = require('./Admin-part1/routes/orders');
