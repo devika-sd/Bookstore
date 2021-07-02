@@ -47,6 +47,10 @@ const UsersSchema = new schema({
         type: Boolean,
         default: false
     },
+    photo:{
+        type:String,
+        default:'no-photo.jpg'
+    },
     passwordResetToken: {
         type: String
     },
