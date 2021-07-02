@@ -79,7 +79,7 @@ UsersSchema.methods.createPasswordResetToken = function () {
 	return resetToken
 }
 
-UsersSchema.pre('save', async function () {
+UsersSchema.pre('save', async function (next) {
     console.log(this)
     if (!this.isModified('password')) {
 		next()
