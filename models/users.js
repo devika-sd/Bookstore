@@ -8,7 +8,6 @@ const schema = mongoose.Schema;
 const UsersSchema = new schema({
     name: {
         type: String,
-        ref:'user',
         unique: false,
         lowercase: true,
         trim: true,
