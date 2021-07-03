@@ -15,3 +15,13 @@ password: Admin@123
 $ npm install
 $ nodemon server.js (or) node server.js
 ```
+#URL for Openning Admin app
+
+```
+http://localhost:8080/Admin
+```
+#URL for Openning User app 
+
+```
+http://localhost:8080/User
+```
