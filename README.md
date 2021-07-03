@@ -18,10 +18,10 @@ $ nodemon server.js (or) node server.js
 #URL for Openning Admin app
 
 ```
-$ http://localhost:8080/admin
+http://localhost:8080/admin
 ```
 #URL for Openning User app 
 
 ```
-$http://localhost:8080/user
+http://localhost:8080/user
 ```
