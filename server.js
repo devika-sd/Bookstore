@@ -3,9 +3,17 @@ const app= express();
 const cors=require('cors');
 require('colors');
 const errorHandler=require('./Admin-part1/middleware/errorhandler');
+const {notFound_1,errorHandler_1}=require('./team1/middleware/errorMiddleware');
+const {notFound_5,errorHandler_5}=require('./team5/middleware/errorMiddleware');
+
 const databaseConnection=require('./db');
 /**********************************Route Import Area******************************************/
-
+//team1
+const userRoutes = require('./team1/routes/userRoutes')
+//team2,4
+const searchpageRoute = require('./team4/routes/newsearch')
+const wishlistRoute = require('./team4/routes/wishlist')
+const cartlistRoute = require('./team4/routes/cart')
 //team3
 const userRoute = require('./Admin-part1/routes/users');
 const orderRoute = require('./Admin-part1/routes/orders');
@@ -23,8 +31,8 @@ app.use(express.json());
 
 
 //for User app (running frontend and backend in same port) use: http://localhost:8080/user
-// app.use("/", express.static('public/User'));
-// app.use('/User', express.static('public/User'))
+app.use("/", express.static('public/User'));
+app.use('/User', express.static('public/User'))
 
 
 //for Admin app (running frontend and backend in same port) use: http://localhost:8080/admin
@@ -34,7 +42,12 @@ app.use('/Admin', express.static('public/Admin/'))
 
 databaseConnection();
 /**********************************Route Area**************************************************/
-
+//team1
+app.use('/api/users', userRoutes)
+//team2,4
+app.use('/books', searchpageRoute);
+app.use('/api/wishlist', wishlistRoute);
+app.use('/api/cartlist', cartlistRoute);
 //team 3
 app.use("/api/v1/users",userRoute);
 app.use("/api/v1/orders",orderRoute);
@@ -45,8 +58,13 @@ app.use("/api/v1/book", bookRoute);
 
 
 /**********************************Error Handler Area*******************************************/
-
-//common error handler
+//team1
+app.use(notFound_1)
+app.use(errorHandler_1)
+//team5
+app.use(notFound_5)
+app.use(errorHandler_5)
+//team3,5 - Admin App
 app.use(errorHandler);
 
 /***********************************************************************************************/
