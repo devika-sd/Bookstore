@@ -5,7 +5,7 @@ require('colors');
 const errorHandler=require('./Admin-part1/middleware/errorhandler');
 const {notFound_1,errorHandler_1}=require('./team1/middleware/errorMiddleware');
 const {notFound_5,errorHandler_5}=require('./team5/middleware/errorMiddleware');
-
+const fileupload = require('express-fileupload')
 const databaseConnection=require('./db');
 /**********************************Route Import Area******************************************/
 //team1
@@ -29,6 +29,8 @@ app.use(cors());
 
 app.use(express.json());
 
+app.use(fileupload())
+app.use('/dp', express.static('team1/public/uploads'))
 
 //for User app (running frontend and backend in same port) use: http://localhost:8080/user
 app.use("/", express.static('public/User'));
