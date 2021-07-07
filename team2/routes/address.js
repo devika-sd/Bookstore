@@ -1,24 +1,19 @@
 var express = require("express");
 var app = express();
 var router = express.Router();
-const Address = require("../model/address");
+const Address = require("../../models/addresses");
 
 const {
-  fetchAllAddresses,
-  addAddresses,
-  deleteCartItemById,
-  delAddresses,
-  patchAddress,
+  fetchAllAddressesUser,
+  addAddressesUser,
+  delAddressesUser,
+  patchAddressUser,
 } = require("../controllers/address");
 
-const advancedFind = require("../middleware/advancedFind");
+router.get("/:email", fetchAllAddressesUser)
+router.post("/", addAddressesUser);
 
-router
-  .route("/")
-  .get(advancedFind(Address), fetchAllAddresses)
-  .post(addAddresses);
-
-router.delete("/:id", delAddresses);
-router.patch("/:id", patchAddress);
+router.delete("/", delAddressesUser);
+router.patch("/", patchAddressUser);
 
 module.exports = router;

@@ -1,5 +1,6 @@
-const Order = require('../model/order')
+const Orders = require('../../models/orders')
 const asyncHandler = require('../middleware/async');
+const CartItem = require("../../models/cartlist");
 
 
 const fetchAllOrders = asyncHandler(async (req, res, next) => {
@@ -7,12 +8,17 @@ const fetchAllOrders = asyncHandler(async (req, res, next) => {
 })
 
 const addOrders = asyncHandler(async (req, res, next) => {
-    let orderRes = await Order.create(req.body);
-    console.log(orderRes);
-    res.status(201).json({ success: true })
-})
-
-
+    console.log(req.body);
+    const emptyCart = await CartItem.updateMany({email:req.body.email},{$set:{books:[]}},{new:true,multi:true});
+    const orderData = {
+        books:req.body.books,
+        address:req.body.address[0],
+        amount:req.body.amount,
+        email:req.body.email
+    }
+    let orderRes = await Orders.create(orderData);
+    res.status(201).json({ success: true });
+});
 
 
 module.exports = { fetchAllOrders, addOrders }

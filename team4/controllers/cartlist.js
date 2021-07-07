@@ -31,10 +31,6 @@ const findonecart = asyncHandler(async(req,res,next)=>{
         res.json(searchData);
         console.log(searchData);}
     else next({message:"no record found"});
-    //res.status(200).json(res.advancedResults);
 })
 
 module.exports = {insertdata,findallcart,findonecart};
-
-
-// var arr=booksitem.map((element)=>{return (Products.find({_id:element}))})

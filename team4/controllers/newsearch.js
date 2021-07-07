@@ -19,6 +19,13 @@ const findDataBasedOnSearchItem = async (req,res,next)=>{
     else next({message:"no record found"});
 }
 
-module.exports = {insertdata,findAlldata,findDataBasedOnSearchItem};
+ const findDataBasedOnBookid = async (req,res,next)=>{
+     let searchData=await Books.find({_id: req.params.id});
+     if(searchData.length !=0){
+         res.json(searchData);
+         console.log(searchData);}
+     else next({message:"no record found"});
+ }
 
+module.exports = {insertdata,findAlldata,findDataBasedOnSearchItem, findDataBasedOnBookid};
 

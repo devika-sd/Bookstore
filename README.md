@@ -23,5 +23,5 @@ http://localhost:8080/Admin
 #URL for Openning User app 
 
 ```
-http://localhost:8080/User
+http://localhost:8080/
 ```
