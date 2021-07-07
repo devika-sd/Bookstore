@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c8fdabd.chunk.css",
-    "main.js": "/static/js/main.77cf7493.chunk.js",
-    "main.js.map": "/static/js/main.77cf7493.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c571a7cf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c571a7cf.js.map",
+    "main.css": "/static/css/main.58b034da.chunk.css",
+    "main.js": "/static/js/main.1381358c.chunk.js",
+    "main.js.map": "/static/js/main.1381358c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff9e645e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff9e645e.js.map",
     "static/css/2.7cef8b32.chunk.css": "/static/css/2.7cef8b32.chunk.css",
-    "static/js/2.51769432.chunk.js": "/static/js/2.51769432.chunk.js",
-    "static/js/2.51769432.chunk.js.map": "/static/js/2.51769432.chunk.js.map",
-    "static/js/3.00cfaf93.chunk.js": "/static/js/3.00cfaf93.chunk.js",
-    "static/js/3.00cfaf93.chunk.js.map": "/static/js/3.00cfaf93.chunk.js.map",
+    "static/js/2.5480663a.chunk.js": "/static/js/2.5480663a.chunk.js",
+    "static/js/2.5480663a.chunk.js.map": "/static/js/2.5480663a.chunk.js.map",
+    "static/js/3.d62416c2.chunk.js": "/static/js/3.d62416c2.chunk.js",
+    "static/js/3.d62416c2.chunk.js.map": "/static/js/3.d62416c2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7cef8b32.chunk.css.map": "/static/css/2.7cef8b32.chunk.css.map",
-    "static/css/main.6c8fdabd.chunk.css.map": "/static/css/main.6c8fdabd.chunk.css.map",
-    "static/js/2.51769432.chunk.js.LICENSE.txt": "/static/js/2.51769432.chunk.js.LICENSE.txt",
+    "static/css/main.58b034da.chunk.css.map": "/static/css/main.58b034da.chunk.css.map",
+    "static/js/2.5480663a.chunk.js.LICENSE.txt": "/static/js/2.5480663a.chunk.js.LICENSE.txt",
     "static/media/AllbooksbottomCardImage.0604cef3.png": "/static/media/AllbooksbottomCardImage.0604cef3.png",
     "static/media/Author1.9fade8aa.jpg": "/static/media/Author1.9fade8aa.jpg",
     "static/media/Author2.cf5adf5e.jpg": "/static/media/Author2.cf5adf5e.jpg",
@@ -33,7 +33,7 @@
     "static/media/dealsForYouImage4.61db84ff.jpg": "/static/media/dealsForYouImage4.61db84ff.jpg",
     "static/media/dealsForYouImage5.df615775.jpg": "/static/media/dealsForYouImage5.df615775.jpg",
     "static/media/dealsForYouImage6.d1802872.jpg": "/static/media/dealsForYouImage6.d1802872.jpg",
-    "static/media/gpay-logo.1c5af9dc.svg": "/static/media/gpay-logo.1c5af9dc.svg",
+    "static/media/gpay-logo.87906367.svg": "/static/media/gpay-logo.87906367.svg",
     "static/media/hdfc-bank-logo.ef8cc3df.svg": "/static/media/hdfc-bank-logo.ef8cc3df.svg",
     "static/media/homePageCarousal2Image1.66bcd503.png": "/static/media/homePageCarousal2Image1.66bcd503.png",
     "static/media/homePageCarousal2Image2.b2363a4f.jpg": "/static/media/homePageCarousal2Image2.b2363a4f.jpg",
@@ -51,10 +51,10 @@
     "static/media/todayDealsbottomCardImage.d21737d1.jpg": "/static/media/todayDealsbottomCardImage.d21737d1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c571a7cf.js",
+    "static/js/runtime-main.ff9e645e.js",
     "static/css/2.7cef8b32.chunk.css",
-    "static/js/2.51769432.chunk.js",
-    "static/css/main.6c8fdabd.chunk.css",
-    "static/js/main.77cf7493.chunk.js"
+    "static/js/2.5480663a.chunk.js",
+    "static/css/main.58b034da.chunk.css",
+    "static/js/main.1381358c.chunk.js"
   ]
 }
