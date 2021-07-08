@@ -5,6 +5,7 @@ const { fetchAllWishItems, addWishItems } = require('../controllers/wishItem')
 // const WishItem = require('../model/wishItem')
 
 router.route('/:id')
+
    .get(fetchAllWishItems)
 
 router.post("/:email", addWishItems);
