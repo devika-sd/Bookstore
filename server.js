@@ -18,6 +18,7 @@ const databaseConnection = require('./db')
 //team1
 const userRoutes = require('./team1/routes/userRoutes')
 const orderRoutesTeam1 = require('./team1/routes/orderRoutes')
+const wishlistRoutes = require('./team1/routes/wishlistRoutes')
 
 //team2,4
 const addressUser = require('./team2/routes/address')
@@ -29,7 +30,6 @@ const wishItemRoutes = require('./team2/routes/wishItem')
 const searchpageRoute = require('./team4/routes/newsearch')
 const wishlistRoute = require('./team4/routes/wishlist')
 const cartlistRoute = require('./team4/routes/cart')
-const wishlistRoutesTeam1 = require('./team1/routes/wishlistRoutes')
 
 //team3
 const userRoute = require('./Admin-part1/routes/users')
@@ -63,7 +63,7 @@ databaseConnection()
 //team1
 app.use('/api/users', userRoutes)
 app.use('/api/orders', orderRoutesTeam1)
-app.use('/api/wishlists', wishlistRoutesTeam1)
+app.use('/api/wishlists', wishlistRoutes)
 //team2,4
 
 app.use('/books', searchpageRoute)

@@ -4,10 +4,7 @@ const CartItem = require("../../models/cartlist");
 
 
 const fetchAllOrders = asyncHandler(async (req, res, next) => {
-
     res.json(res.advancedResults);
-
-
 })
 
 

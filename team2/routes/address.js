@@ -10,6 +10,7 @@ const {
   patchAddressUser,
 } = require("../controllers/address");
 
+
 router.get("/:email", fetchAllAddressesUser)
 router.post("/", addAddressesUser);
 

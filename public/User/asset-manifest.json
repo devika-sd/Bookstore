@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3599c76.chunk.css",
-    "main.js": "/static/js/main.bc9164a8.chunk.js",
-    "main.js.map": "/static/js/main.bc9164a8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b912270e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b912270e.js.map",
+    "main.css": "/static/css/main.98cf47cb.chunk.css",
+    "main.js": "/static/js/main.72df58f5.chunk.js",
+    "main.js.map": "/static/js/main.72df58f5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06d27226.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06d27226.js.map",
     "static/css/2.7cef8b32.chunk.css": "/static/css/2.7cef8b32.chunk.css",
-    "static/js/2.5b2a53e1.chunk.js": "/static/js/2.5b2a53e1.chunk.js",
-    "static/js/2.5b2a53e1.chunk.js.map": "/static/js/2.5b2a53e1.chunk.js.map",
-    "static/js/3.d25a5983.chunk.js": "/static/js/3.d25a5983.chunk.js",
-    "static/js/3.d25a5983.chunk.js.map": "/static/js/3.d25a5983.chunk.js.map",
+    "static/js/2.51b8b912.chunk.js": "/static/js/2.51b8b912.chunk.js",
+    "static/js/2.51b8b912.chunk.js.map": "/static/js/2.51b8b912.chunk.js.map",
+    "static/js/3.54cffcc0.chunk.js": "/static/js/3.54cffcc0.chunk.js",
+    "static/js/3.54cffcc0.chunk.js.map": "/static/js/3.54cffcc0.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7cef8b32.chunk.css.map": "/static/css/2.7cef8b32.chunk.css.map",
-    "static/css/main.d3599c76.chunk.css.map": "/static/css/main.d3599c76.chunk.css.map",
-    "static/js/2.5b2a53e1.chunk.js.LICENSE.txt": "/static/js/2.5b2a53e1.chunk.js.LICENSE.txt",
+    "static/css/main.98cf47cb.chunk.css.map": "/static/css/main.98cf47cb.chunk.css.map",
+    "static/js/2.51b8b912.chunk.js.LICENSE.txt": "/static/js/2.51b8b912.chunk.js.LICENSE.txt",
     "static/media/Axis_Bank-Logo.wine.798d59fa.svg": "/static/media/Axis_Bank-Logo.wine.798d59fa.svg",
     "static/media/Paytm-Logo.66395c0d.svg": "/static/media/Paytm-Logo.66395c0d.svg",
     "static/media/Phonepe-logo.afc973e3.svg": "/static/media/Phonepe-logo.afc973e3.svg",
@@ -31,8 +31,8 @@
     "static/media/homePageCarousal2Image2.b2363a4f.jpg": "/static/media/homePageCarousal2Image2.b2363a4f.jpg",
     "static/media/homePageCarousal2Image3.25752af5.jpg": "/static/media/homePageCarousal2Image3.25752af5.jpg",
     "static/media/icici-1.04f4219d.svg": "/static/media/icici-1.04f4219d.svg",
+    "static/media/icons8-ok.1d644621.svg": "/static/media/icons8-ok.1d644621.svg",
     "static/media/newReleasePageCardImage.69db2fdb.jpg": "/static/media/newReleasePageCardImage.69db2fdb.jpg",
-    "static/media/popularPageBottomimage.ba90bf97.jpg": "/static/media/popularPageBottomimage.ba90bf97.jpg",
     "static/media/popularPageCarouselImage1.3dda1ba3.jpg": "/static/media/popularPageCarouselImage1.3dda1ba3.jpg",
     "static/media/popularPageCarouselImage2.4e05b61b.jpg": "/static/media/popularPageCarouselImage2.4e05b61b.jpg",
     "static/media/popularPageCarouselImage3.83d91988.jpg": "/static/media/popularPageCarouselImage3.83d91988.jpg",
@@ -42,10 +42,10 @@
     "static/media/todayDealsCarousalImage.0f7f3b1f.jpg": "/static/media/todayDealsCarousalImage.0f7f3b1f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b912270e.js",
+    "static/js/runtime-main.06d27226.js",
     "static/css/2.7cef8b32.chunk.css",
-    "static/js/2.5b2a53e1.chunk.js",
-    "static/css/main.d3599c76.chunk.css",
-    "static/js/main.bc9164a8.chunk.js"
+    "static/js/2.51b8b912.chunk.js",
+    "static/css/main.98cf47cb.chunk.css",
+    "static/js/main.72df58f5.chunk.js"
   ]
 }

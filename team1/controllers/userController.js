@@ -7,10 +7,6 @@ const sendEmail = require('../util/email')
 const crypto = require('crypto');
 const path = require('path');
 
-// @desc   register a new Profile
-// @route   POST /api/users
-// @access  Public
-
 const registerUser = asyncHandler(async (req, res) => {
 	const { name, email, password, phone } = req.body
 
@@ -101,7 +97,9 @@ const updateUserProfile = asyncHandler(async (req, res) => {
 		if (req.body.password) {
 			user.password = req.body.password
 		}
-
+		if (req.body.phone) {
+			user.phone = req.body.phone
+		}
 		const updateUser = await user.save()
 		res.json({
 			_id: updateUser._id,
@@ -113,9 +111,6 @@ const updateUserProfile = asyncHandler(async (req, res) => {
 		})
 	} else {
 		res.status(404)
-
-		//ekjfdhekw
-
 		throw new Error('User Not Found')
 	}
 })
@@ -202,7 +197,8 @@ const resetPassword = asyncHandler(async (req, res) => {
 		throw new Error('Token expired')
 	}
 	if (req.body.password !== req.body.confirmPassword) {
-		return new ErrorHandler('Password does not match', 400)
+		res.status(400)
+		throw new Error('Password does not match')
 	}
 
 	user.password = req.body.password
